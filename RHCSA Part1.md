@@ -18,7 +18,9 @@
 - `find mnt` #show mounted file systems
 - `whoami` #show current username  
 
-*Double tab on text shows all commands starting with that text *
+_Double tab on text shows all commands starting with that text_
 ```
 example: "fre" double tabing will show any commands starting with "fre"
+
+```
 
