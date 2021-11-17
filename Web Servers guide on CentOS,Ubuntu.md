@@ -2,10 +2,11 @@
 #### _Note1 : The below content was written while studying/doing labs on it._ ####
 #### _Note2 : This is a beginners guide, the below steps can be done in a several advanced ways_ ####
 
+_The LAMP stack allows web developers to build, deploy, and manage web applications so we as a linux admins need to build the infrastructure for them :)_
+_In every distro we will install LAMP, configure virtual host, install wordpress, secure using SSL._
+
 
 ## CentOS 7 ##
-_The LAMP stack allows web developers to build, deploy, and manage web applications so we as a linux admins need to build the infrastructure for them :)_
-_We will install LAMP, configure virtual host, install wordpress, secure using SSL._
 
 ### LAMP stack ###
 ##### _LAMP means Linux/Apache/MySQL/php_ #####
