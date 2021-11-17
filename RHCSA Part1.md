@@ -26,6 +26,7 @@ example: "fre" double tabing will show any commands starting with "fre"
 
 ```
 - `history` #show all past commands done in the system
+
 !11 #runs command no.11 in history
 !f # runs last command starting with letter f
 
