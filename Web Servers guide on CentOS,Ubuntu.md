@@ -28,8 +28,8 @@ To make the stack work we will do the following steps
 - `sudo yum install php php-common php-opcache php-mcrypt php-cli php-gd php-curl php-mysql –y` # installing other php versions #
 
 ### Creating a virtual host ###
-- `sudo mkdir -p /var/www/example.com` # maing a directory for our virtual host #
-- `sudo nano /etc/httpd/conf.d/example.com.conf` # creating a configurate file for the vh and applying the below template #
+- `sudo mkdir -p /var/www/example.com` # making a directory for our virtual host #
+- `sudo nano /etc/httpd/conf.d/example.com.conf` # creating a configuration file for the vh and applying the below template #
 
 ```
 <VirtualHost *:80>
