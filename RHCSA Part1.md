@@ -10,6 +10,7 @@
 - Lesson 7:
 
 *I skipped Lesson 1 because there is not much to talk about here*
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Lesson 2 ### 
 #### Basic linux commands ###
 - `free -m` #show free memory
@@ -18,7 +19,7 @@
 - `find mnt` #show mounted file systems
 - `whoami` #show current username  
 
-_Double tab on text shows all commands starting with that text_
+*_Double tab on text shows all commands starting with that text_
 ```
 example: "fre" double tabing will show any commands starting with "fre"
 
