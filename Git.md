@@ -1,6 +1,6 @@
 # Welcome to my Git study notes #
 
-## *** These notes are written depending on my understanding of what i learned *** ##
+## *** These notes are written based on my personal understanding of what i learned *** ##
 
 ### Table of contents ###
 - Git concepts
