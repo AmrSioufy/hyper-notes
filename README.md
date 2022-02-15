@@ -2,7 +2,7 @@
 
 ### Topics covered
 1. RHCSA - RedHat certified system admin 
-2. CCNA - Cisco certified network associate
+2. IoT Project using Raspberry Pi
 3. LFCE - Linux Foundation certified engineer
 4. DevOps
 5. Python
