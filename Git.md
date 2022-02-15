@@ -43,7 +43,7 @@ Now we can clone the repo locally.
 - `git status` shows current state if there are any changes 
 - `git add <file>` adds the changed file into the staging area so it can be committed
 - `git commit` commits changes with an option to describe the commit in a message
-- `git push` pushed the commit into the remote repository so both repos are in the same level (not ahead of each other)
+- `git push` push the commit into the remote repository so both repos are in the same level (not ahead of each other)
 - `git pull` pulling any changes remotely to the local repo
 - `git checkout` switch between branches 
 
