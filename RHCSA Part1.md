@@ -1,5 +1,5 @@
 # Welcome to my RHCSA study notes! #
-
+## *** These notes are written depending on my understanding of what i learned *** ##
 ## Table of contents ## 
 - Lesson 1: Installation/Logging/Server requirements
 - Lesson 2: Basic linux commands/Redirection I/O /Piping/File system hierarchy/globbing/wildcards/cockpit/man/vim
