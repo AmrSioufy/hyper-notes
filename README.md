@@ -1,4 +1,4 @@
-## This Repository contains my studying notes and some guides on different topics.
+## This Repository contains my studying notes and some guides of projects done, lessons learned.
 
 ### Studying notes cover the following topics:
 1. RHCSA - RedHat certified system admin 
