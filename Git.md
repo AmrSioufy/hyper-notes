@@ -11,7 +11,7 @@
 
 ### Git Concepts ###
 
-*Git is a tool for continous integration of code that uses repositories locally and remotely in which they can be connected to each other.
+*Git is a tool for continous integration of code that uses repositories locally and remotely in which they can be connected to each other.*
 
 In CI using Git:
 - The code is continously updated by push/pull 
