@@ -56,3 +56,32 @@ It is important to maintain the state of the master branch
 When editing a branch then requesting for a merge to the master branch the request is reviewed before pulling the branch to master.
 When deleting any branch the master is protected.
 To avoid branch merge status in the git log we often do a pull rebase while pulling using `git pull -r` then pushing any commits
+Sometimes we may have merge conflicts so we wont be able to do a `git pull -r`. We must resolve the conflicts in a code editor to review the differences then we may do a `git rebase --continue` so we can push normally after pulling a conflict version earlier.
+
+##### git ignroe #####
+The .gitignore is basically a configuration that includes files that are specific to a user and can be excluded in any push/pull by other users so these files are removed from the remote repository until removing the configuration from the .gitignore.
+
+After including files in .gitignore we can remove the files from the remote repo using `git rm -r --cahced <filename>` 
+
+##### git stash #####
+If we have an unfinished work that we want to commit later we can save it using `git stash` and if we want to get to it back we use `git stash pop`
+
+##### going back in history through commit log #####
+We use the commit hash to navigate to any point of commit so we will be in a detached head state which allows us to create a new branch till this point of commit.
+`git checkout <commit hash>`
+
+##### undoing and changing commands #####
+We can reset earlier commits and remove any edits by using `git reset --hard HEAD~3` the ~3 in the command indetifies the reverse numbering of the specific commit we want
+We can also correct commit changes which is basically undoing `git commit` by using `git reset HEAD~1`
+To overwritte the last commit we can use `git commit --amend`
+If we tried to push normally to remote after changing earlier commits then we will get an error and alternatively we use `--force` as an option to correct commits sequence between remote and local. *Bad idea in a shared branch which causes conflicts*
+`git revert <commit hash>` reverts last commit but does not override last one
+
+#### Merging branches ####
+In the command line we can merge master into another branch by `git merge master` as master is our source
+Or we can do it using the UI
+
+### Git for devops ###
+* Git is important in the IaaS such as "kubernetes configuration files", "terraform and ansible conf files" and "bash/python scripts"*
+* It is also important in the CI/CD pipeline and build automation such as jenkins *
+Which will need the setup of integration for build automation tool and application git repo.
