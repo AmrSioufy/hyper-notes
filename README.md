@@ -11,4 +11,4 @@
 - Networking configurations
 - Git version control
 - Databases
-
+- Vehicle to Vehicle communicated raspberrypis 
