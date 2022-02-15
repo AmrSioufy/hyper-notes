@@ -49,3 +49,10 @@ Now we can clone the repo locally.
 
 ### Branches ###
 
+It is important to maintain the state of the master branch
+
+`git checkout -b <branchname>` switches to a new branch
+
+When editing a branch then requesting for a merge to the master branch the request is reviewed before pulling the branch to master.
+When deleting any branch the master is protected.
+To avoid branch merge status in the git log we often do a pull rebase while pulling using `git pull -r` then pushing any commits
