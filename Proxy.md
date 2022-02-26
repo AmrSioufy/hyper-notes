@@ -2,7 +2,7 @@
 -This is a configuration for an nginx reverse proxy on an apache web server.
 
 *Before starting we must configure SELinux so it doesnt cause any behind the scenes errors by using this command 
-`setsebool -P httpd_can_network_connect 1` *
+`setsebool -P httpd_can_network_connect 1`*
 
 - First of all install the LAMP stack and usage of virtualhost is optional.
 - Edit the /etc/httpd/conf/httpd.conf config file to make the apache webserver work on any port for example 8080 and to listen to the 127.0.0.1:8080 socket
