@@ -55,3 +55,9 @@ proxy_read_timeout                 60s;
 *Now we must reload and restart nginx and httpd*
 
 *Using a browser or elinks we can test our reverse proxy by visitng http://localhost which will show the contents of the index.html working on the apache through the nginx*.
+
+##### References #####
+https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/
+https://stackoverflow.com/questions/23948527/13-permission-denied-while-connecting-to-upstreamnginx
+https://gist.github.com/soheilhy/8b94347ff8336d971ad0
+https://www.youtube.com/watch?v=qPiQXG4JrHc
