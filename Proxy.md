@@ -33,7 +33,7 @@
 - root is our testing material from the apache webserver
 
 lastly we need to create a config file in /etc/nginx/conf.d
-`
+```
 # Proxy headers
 proxy_set_header Upgrade           $http_upgrade;
 proxy_set_header Connection        "upgrade";
@@ -48,7 +48,7 @@ proxy_set_header X-Forwarded-Port  $server_port;
 proxy_connect_timeout              60s;
 proxy_send_timeout                 60s;
 proxy_read_timeout                 60s;
-`
+```
 
 - The above configs are just some adjustments to our proxy features
 *Now we must reload and restart nginx and httpd*
