@@ -30,7 +30,7 @@ This is a configuration for an nginx reverse proxy on an apache web server.
         }
 ```
 - server_name specifies the ip address of the nginx proxy
-- proxy_pass is the server that will get proxied requests
+- proxy_pass simply tells nginx to forward requests to / to the server listening on http://127.0.0.1:8080. *port 8080 is for the apache. if we want to run an application at the same time to be connected to nginx we must use another port and add location and proxy_pass options*
 - root is our testing material from the apache webserver
 
 lastly we need to create a config file in /etc/nginx/conf.d
