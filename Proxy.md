@@ -5,7 +5,7 @@ This is a configuration for an nginx reverse proxy on an apache web server.
 
 `setsebool -P httpd_can_network_connect 1`
 
-- First of all install the LAMP stack and usage of virtualhost is optional.
+- First of all install the LAMP stack and using a virtualhost in this lab is optional.
 - Edit the /etc/httpd/conf/httpd.conf config file to make the apache webserver work on any port for example 8080 and to listen to the 127.0.0.1:8080 socket
 - Add index.html and index.php to the document root of the apache webserver for test purposes
 
