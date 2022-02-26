@@ -1,7 +1,8 @@
 ### Reverse Proxy ###
 -This is a configuration for an nginx reverse proxy on an apache web server.
 
-*Before starting we must configure SELinux so it doesnt cause any behind the scenes errors by using this command `setsebool -P httpd_can_network_connect 1` *
+*Before starting we must configure SELinux so it doesnt cause any behind the scenes errors by using this command 
+`setsebool -P httpd_can_network_connect 1` *
 
 - First of all install the LAMP stack and usage of virtualhost is optional.
 - Edit the /etc/httpd/conf/httpd.conf config file to make the apache webserver work on any port for example 8080 and to listen to the 127.0.0.1:8080 socket
@@ -12,7 +13,7 @@
 - Edit the user to apache 
 - The following configurations part must be written in this context
 
-`
+```
     server {
         listen       80;
         server_name  192.168.234.132;
@@ -26,7 +27,7 @@
         proxy_redirect off;
         proxy_set_header Host $http_host;
         }
-`
+```
 - server_name specifies the ip address of the nginx proxy
 - proxy_pass is the server that will get proxied requests
 - root is our testing material from the apache webserver
