@@ -1,5 +1,5 @@
 ### Reverse Proxy ###
--This is a configuration for an nginx reverse proxy on an apache web server.
+This is a configuration for an nginx reverse proxy on an apache web server.
 
 *Before starting we must configure SELinux so it doesnt cause any behind the scenes errors by using this command*
 
